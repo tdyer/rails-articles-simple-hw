@@ -39,9 +39,7 @@ Rails is based on the MVC Architecture.
 * Create a README file that will contain the URL for each Rails Guide for ActiveRecord Model, Migration, Controller and Views.
 * In this README add in the URL for the documentation for the ActionController and ActiveRecord classes.
 * Create the code needed to view the __HTML Representation__ of all __Articles__.
-* Each Article will have a title, author, date, status (draft, approved, published or cancelled)
-* Create the code needed to view the __JSON__ Representation of the all the Articles.
+* Each Article will have a title, author, date published, status (draft, approved, published or cancelled)
 * Create the code needed to view the __HTML Representation__ of an individual Article.
-* Create the code needed to view the __JSON Representation__ of an individual Article.
 
 
