@@ -33,13 +33,26 @@ Rails is based on the MVC Architecture.
 
 #### Homework Requirements
 
-* Create a new Rails application
+* Create a new Rails application for managing __Articles.__.
+* Each __Article__ will have a __title__, __author__, __date published__ and __status__.
+* The status attribute value MUST will be one of these values. (not_started, in_progress, draft, approved, published or cancelled). 
+* To create the Article migration and model use a rails generator `$ rails g model Article ...`.
 * Use a SQLite DB.
+* Seed/Populate the DB with a couple of articles.
 * Create a DB table, Model, Migration, Controller and View using a rails generator OR by hand coding.
 * Create a README file that will contain the URL for each Rails Guide for ActiveRecord Model, Migration, Controller and Views.
 * In this README add in the URL for the documentation for the ActionController and ActiveRecord classes.
 * Create the code needed to view the __HTML Representation__ of all __Articles__.
-* Each Article will have a title, author, date published, status (draft, approved, published or cancelled)
+
 * Create the code needed to view the __HTML Representation__ of an individual Article.
+* __We forgot the contents of the article!__ So let's add a column for the contents of the __Article__.
+
+  
+> Lets generate a Migration that will add one column to the Articles model. And run that migration to apply the change to the DB.
+
+```bash
+$ rails g migration AddContentToArticles content:text
+$ rake db:migrate
+```
 
 
