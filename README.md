@@ -19,6 +19,9 @@
 * Create a Controller show action to view one Model.
 * Create a View for to generate a representation of this Model.
 * Draw Diagrams that show the flow of a HTTP Requests and Responses and the how the Model, View and Controller interact.
+* Create a One to Many Relationship.
+* Create a Nested Resource.
+* Draw Entity Relationship Diagram (ERD) for data model.
 
 
 ### Model, View, Controller (MVC)
@@ -54,5 +57,7 @@ Rails is based on the MVC Architecture.
 $ rails g migration AddContentToArticles content:text
 $ rake db:migrate
 ```
+* Create Comments for an Article. There is a one-to-many relationship between an Article and it's Comments. _Each Article may have many Comments._
+* Create a nested resource for Article comments.
 
 
